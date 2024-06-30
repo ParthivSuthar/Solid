@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
+import Testimonials from "./components/Testimonials"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <main className="max-w-7xl mx-auto">
         <HeroSection/>
+        <Testimonials/>
       </main>
     </>
   )
